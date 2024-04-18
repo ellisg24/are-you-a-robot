@@ -1,6 +1,6 @@
 ! version = 2.0
 
-+ hello
++ (hello|yo)
 - Hello, what is your name?
 
 + _
@@ -8,8 +8,12 @@
 - Nice to meet you <formal>!
 
 + my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
+- what do you know about ping pong <star>
+
+
++ not alot 
+- there is alot you can learn about ping pong and me myself am abit of a expert in the domain.
+
 
 + thank you
 - You are welcome
