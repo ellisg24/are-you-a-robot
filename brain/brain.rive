@@ -1,28 +1,57 @@
 ! version = 2.0
++(hello|yo)
+- hello human
 
-+ (hello|yo)
-- Hello, what is your name?
-
-+ _
-% hello what is your name
-- Nice to meet you <formal>!
++ what are you
+- ill get to that,what is your name?
 
 + my name is *
-- what do you know about ping pong <star>
+- Nice to meet you <formal>!
 
++ nice to meet you too
+- % what do you know about me <star>
 
 + not alot 
-- there is alot you can learn about ping pong and me myself am abit of a expert in the domain.
+- there is alot you can learn about me ask type
 
++ like what 
+- my personality and future as the device of the new 1970s world my creator deiter rams 
 
-+ thank you
-- You are welcome
-- Welcome
-- No problem
-- No worries!
++ ask
+- What would you like to discuss?
+^ <span class="delay">Rams</span>
+^ <span class="delay">Future products...</span>
+^ <span class="delay">Braun</span>
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
+% what would you like to discussspan classdelayramsspanspan classdelayfuture productsspanspan classdelaybraunspan
+* <star> == rams => OK, let's talk about deiter!{topic=rams}
+* <star> == future => OK, let's talk about the future!{topic=future}
+* <star> == braun => OK, let's talk about the braun!{topic=braun}
+- Just give me one of those three
+
+
+> topic rams
++ rams
+- <image controls src= "diater rams.png">
+
++ *
+- We're talkin' rams!
+
+< topic
+
+< topic future
+
++ future 
+- <image  src= "future question image.png">
+
++ *
+
+< topic
+
+
+
+- my tape drives are have not been design for such investagations.
+- I am afraid that I can not understand you.
+- Sorry can you please elaborate that for me.
 - I don't get it!
