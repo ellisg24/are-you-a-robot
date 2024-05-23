@@ -135,3 +135,15 @@ input:focus {
   animation-fill-mode: forwards;
   display: block;
 }
+
+img {
+  width: 100%;
+}
+
+.hint {
+  font-family: monospace;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 20px;
+  opacity: 0.8;
+}
